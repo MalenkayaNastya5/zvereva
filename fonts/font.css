@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Visuelt Pro Bold';
+    src: url('VisueltPro-Bold.eot');
+    src: url('VisueltPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('VisueltPro-Bold.woff2') format('woff2'),
+        url('VisueltPro-Bold.woff') format('woff'),
+        url('VisueltPro-Bold.ttf') format('truetype'),
+        url('VisueltPro-Bold.svg#VisueltPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro Medium';
+    src: url('VisueltPro-Medium.eot');
+    src: url('VisueltPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('VisueltPro-Medium.woff2') format('woff2'),
+        url('VisueltPro-Medium.woff') format('woff'),
+        url('VisueltPro-Medium.ttf') format('truetype'),
+        url('VisueltPro-Medium.svg#VisueltPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro Regular';
+    src: url('VisueltPro-Regular.eot');
+    src: url('VisueltPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('VisueltPro-Regular.woff2') format('woff2'),
+        url('VisueltPro-Regular.woff') format('woff'),
+        url('VisueltPro-Regular.ttf') format('truetype'),
+        url('VisueltPro-Regular.svg#VisueltPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

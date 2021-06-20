@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body{
+  font-family: Visuelt Pro Regular;
+}
+
+#wrapper{
+  /*outline: solid thin red;*/
+  margin: 15px auto;
+  width: 100%;
+  max-width: 1260px;
+}
+
+#first-line{
+  outline: solid thin red;
+  display: flex;
+}
+
+#first-line>div{
+  outline: solid thin blue;
+  width: 50%;
+}
+#first-line>div>a:first-child{
+  padding-right: 30px;
+}
+
+#first-line>div:last-child{
+  text-align: right;
+}
+
+#first-line>div>a{
+  outline: solid thin green;
+  font-size: 12px;
+  color:#A6A6A6;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#first-line>div>a:hover{
+  text-decoration: underline;
+}
