@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="fonts/font.css">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	
+
+
+
+
+
+
+<div id="wrapper">
+
+
+
+
+	<div id="first-line">
+		<div><a href="#">Ваш город: Минск</a><a href="#">Адреса магазинов</a></div>
+		<div><a href="#">Помощь</a><a href="#">Оплата и доставка</a></div>
+	</div>
+
+
+
+
+
+
+
+
+
+    <div id="second-line">
+        <div class="wrap">
+            <a href="index.html" id="logo">
+                <img src="img/logo.png"  alt="логотип">
+                <span>Мой офис</span>
+            </a>
+            
+
+            <label id="cat_bottom" for="cat_open">Каталог</label>
+            
+            <input type="checkbox" id="cat_open">            
+            <div id="cat_menu">
+                <ul>
+                    <li><a href="#">Письменные принадлежности</a></li>
+                    <li><a href="#">Ручки</a></li>
+                    <li><a href="#">Карандаши</a></li>
+                    <li><a href="#">Маркеры</a></li>
+                    <li><a href="#">Наборы письменные</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Бумажная продукция</a></li>
+                    <li><a href="#">Офисная бумага </a></li>
+                    <li><a href="#">Блокноты</a></li>
+                    <li><a href="#">Ежедневники и еженедельники </a></li>
+                    <li><a href="#">Стикеры и блоки для записей</a></li>
+                    <li><a href="#">Закладки</a></li>   
+                </ul>
+                <ul>
+                    <li><a href="#">Офисные принадлежности</a></li>
+                    <li><a href="#">Степлеры</a></li>
+                    <li><a href="#">Корректоры	</a></li>
+                    <li><a href="#">Дыроколы	</a></li>
+                    <li><a href="#">Ластики	</a></li>
+                    <li><a href="#">Скотч и клейкая лента	</a></li>
+                    <li><a href="#">Папки</a></li>
+                    <li><a href="#">Клей</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Школьные принадлежности</a></li>
+                    <li><a href="#">Тетради</a></li>  
+                    <li><a href="#">Дневники</a></li>     
+                    <li><a href="#">Пеналы</a></li>
+                    <li><a href="#">Линейки</a></li>
+                    <li><a href="#">Циркули</a></li>
+                    <li><a href="#">Цветные карандаши </a></li>
+                    <li><a href="#">Краски, кисти</a></li>
+                </ul>           
+                 
+            </div>
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        <form action="">
+            <input type="seach" value="Поиск">
+        </form>
+        <div class="knopki">
+            <a href="#" class="cabinet"><img src="img/cabinet.jpg" alt=""></a>
+            <a href="#" class="favorite"><img src="img/favorite.jpg" alt=""><span>1</span></a>
+            <a href="cart.html" class="cart"><img src="img/cart.jpg" alt=""><span>1</span></a>
+        </div>
+
+    </div>   <!-- second-line -->
+
+
+
+
+    <div id="breadcrumbs">
+        <span><a href="#">Бумажная продукция</a></span>
+        <span>Блокноты</span>
+
+    </div> <!-- breadcrumbs -->
+
+
+
+
+
+
+
+
+
+
+
+    <div id="content_wrap">
+        <aside>
+           <div class="cat_wrap">
+               <h2>Блокноты</h2>
+               <div><span>98</span> товаров</div>
+           </div>
+           
+           
+           <form action="" class="filtr">
+              
+               <input type="checkbox" id="filtr_price" class="filtr_param" checked>
+               <label for="filtr_price">Цена</label>
+               <div>
+                   <input type="text" class="min_price" value="3"> - <input type="text" class="max_price"  value="44.60">
+               </div> 
+               
+                                           
+               <input type="checkbox" id="filtr_formar" class="filtr_param">
+               <label for="filtr_formar">Формат</label>
+               <div>
+                   Lorem ipsum dolor sit amet.
+               </div> 
+                                                                                                                                                                       
+                                                                                                                
+               <input type="checkbox" id="filtr_linovka" class="filtr_param">
+               <label for="filtr_linovka">Линовка</label>
+               <div>
+                   Lorem ipsum dolor sit amet.
+               </div>
+               
+               <input type="checkbox" id="filtr_color" class="filtr_param">
+               <label for="filtr_color">Цвет</label>
+               <div>
+                   Lorem ipsum dolor sit amet.
+               </div>
+                
+               <input type="checkbox" id="filtr_razmer" class="filtr_param" checked>
+               <label for="filtr_razmer">Размер</label>
+               <div class="filtr_razmer_items">
+                   <input type="checkbox" name="razmer" id="A7"><label for="A7">A7</label>
+                   <input type="checkbox" name="razmer" id="A6"><label for="A6">A6</label>
+                   <input type="checkbox" name="razmer" id="A5" checked><label for="A5">A5</label>
+                   <input type="checkbox" name="razmer" id="A4"><label for="A4">A4</label>
+               </div>
+ 
+               <input type="checkbox" id="filtr_oblozhka" class="filtr_param">
+               <label for="filtr_oblozhka">Обложка</label>
+               <div>
+                   Lorem ipsum dolor sit amet.
+               </div>                                         
+               
+               <input type="checkbox" id="filtr_kol_list" class="filtr_param">
+               <label for="filtr_kol_list">Количество листов</label>
+               <div>
+                   Lorem ipsum dolor sit amet.
+               </div>               
+               
+               <input type="checkbox" id="filtr_brend" class="filtr_param">
+               <label for="filtr_brend">Бренд</label>
+               <div>
+                   Lorem ipsum dolor sit amet.
+               </div>  
+               
+                <p><input type="reset" value="Очистить фильтр"></p>
+                
+                <hr>
+                
+                <ul class="selected_options">
+                    <li>A5<span>x</span></li>
+<!--
+                    <li>A7<span>x</span></li>
+                    <li>A6<span>x</span></li>
+-->
+                </ul>
+               
+               
+               
+               
+               
+           </form>
+           
+        </aside>
+        
+        
+        
+        <div id="content">
+           
+            <div class="filtr2">
+                <div class="cat">
+                    <div class="popular">
+                        
+                        <input type="checkbox" id="popular_check">
+                        <label for="popular_check">Популярные</label>
+                        <ul>
+                            <li class="active"><a href="#">Популярные</a></li>
+                            <li><a href="#">Новинки</a></li>
+                            <li><a href="#">Сначала дешевле </a></li>
+                            <li><a href="#">Сначала дороже</a></li>
+                            <li><a href="#">Высокий рейтинг</a></li>
+                        </ul>
+                    </div>
+                    <div class="new">Новинки</div>
+                    <div class="sale">Скидки</div>
+                </div>
+                <div class="grid-list">
+                    <a href="index.html" class="grid_bottom "></a>
+                    <a href="index_list.html" class="list_bottom active"></a>
+                </div>
+            </div>
+            
+         
+                                 
+                                    
+                                       
+                                          
+                                             
+            <div class="products list">
+               
+               
+                <div class="product">
+                    <div class="img_wrap">
+                        <img src="img/prod1.png" alt="">
+                    </div>
+                    <div class="opisanie">
+                       
+                        <h3>Ежедневник недатированный "Beauty Lifestyle" (А5)</h3> 
+                        <h5>Лидер продаж</h5>                      
+                        <div class="rating_reviews">
+                            <div class="rating-result">
+                                <span class="active"></span>	
+                                <span class="active"></span>    
+                                <span class="active"></span>  
+                                <span></span>    
+                                <span></span>
+                            </div>   
+                            <div class="reviews">
+                                5 отзывов 
+                            </div>                     
+                        </div>  
+                        <h4>OfficeSpace</h4>
+                        <div class="text">
+                            Блокнот "Beauty Lifestyle" оптимального формата А5 с иллюстрацией снаружи и 40 листами кремовой бумагой внутри. Отлично подходит для повседневных записей.
+                        </div>                     
+                                              
+                    </div>
+                    
+                    <div class="func_block">
+                       <div>
+                            <div class="price_fav">
+                                <div>
+                                    <div class="price new_price">7.73 руб</div>
+                                    <div class="old_price">15.86 руб</div>
+                                </div>
+
+                            </div>
+                        
+                     
+                            <div class="fav_count">
+                                
+                                <div class="quantity-block">
+                                  <button class="quantity-arrow-minus"> - </button>
+                                  <input class="quantity-num" type="number" value="1" />
+                                  <button class="quantity-arrow-plus"> + </button>
+                                </div>
+                                
+                                 <div class="fav active"></div>                        
+                                                                                                        
+                            </div>
+                            <input type="submit" class="to_cart" value="В корзину">
+                                                                                    
+                       </div>
+ 
+                    </div>
+                    
+
+                </div> <!-- product-->
+
+         
+
+               
+                <div class="product">
+                    <div class="img_wrap">
+                        <img src="img/prod1.png" alt="">
+                    </div>
+                    <div class="opisanie">
+                       
+                        <h3>Ежедневник недатированный "Beauty Lifestyle" (А5)</h3> 
+                        <h5>Лидер продаж</h5>                      
+                        <div class="rating_reviews">
+                            <div class="rating-result">
+                                <span class="active"></span>	
+                                <span class="active"></span>    
+                                <span class="active"></span>  
+                                <span></span>    
+                                <span></span>
+                            </div>   
+                            <div class="reviews">
+                                5 отзывов 
+                            </div>                     
+                        </div>  
+                        <h4>OfficeSpace</h4>
+                        <div class="text">
+                            Блокнот "Beauty Lifestyle" оптимального формата А5 с иллюстрацией снаружи и 40 листами кремовой бумагой внутри. Отлично подходит для повседневных записей.
+                        </div>                     
+                                              
+                    </div>
+                    
+                    <div class="func_block">
+                       <div>
+                            <div class="price_fav">
+                                <div>
+                                    <div class="price new_price">7.73 руб</div>
+                                    <div class="old_price">15.86 руб</div>
+                                </div>
+
+                            </div>
+                        
+                     
+                            <div class="fav_count">
+                                
+                                <div class="quantity-block">
+                                  <button class="quantity-arrow-minus"> - </button>
+                                  <input class="quantity-num" type="number" value="1" />
+                                  <button class="quantity-arrow-plus"> + </button>
+                                </div>
+                                
+                                 <div class="fav active"></div>                        
+                                                                                                        
+                            </div>
+                            <input type="submit" class="to_cart" value="В корзину">
+                                                                                    
+                       </div>
+ 
+                    </div>
+                    
+
+                </div> <!-- product-->
+
+         
+
+               
+                <div class="product">
+                    <div class="img_wrap">
+                        <img src="img/prod1.png" alt="">
+                    </div>
+                    <div class="opisanie">
+                       
+                        <h3>Ежедневник недатированный "Beauty Lifestyle" (А5)</h3> 
+                        <h5>Лидер продаж</h5>                      
+                        <div class="rating_reviews">
+                            <div class="rating-result">
+                                <span class="active"></span>	
+                                <span class="active"></span>    
+                                <span class="active"></span>  
+                                <span></span>    
+                                <span></span>
+                            </div>   
+                            <div class="reviews">
+                                5 отзывов 
+                            </div>                     
+                        </div>  
+                        <h4>OfficeSpace</h4>
+                        <div class="text">
+                            Блокнот "Beauty Lifestyle" оптимального формата А5 с иллюстрацией снаружи и 40 листами кремовой бумагой внутри. Отлично подходит для повседневных записей.
+                        </div>                     
+                                              
+                    </div>
+                    
+                    <div class="func_block">
+                       <div>
+                            <div class="price_fav">
+                                <div>
+                                    <div class="price new_price">7.73 руб</div>
+                                    <div class="old_price">15.86 руб</div>
+                                </div>
+
+                            </div>
+                        
+                     
+                            <div class="fav_count">
+                                
+                                <div class="quantity-block">
+                                  <button class="quantity-arrow-minus"> - </button>
+                                  <input class="quantity-num" type="number" value="1" />
+                                  <button class="quantity-arrow-plus"> + </button>
+                                </div>
+                                
+                                 <div class="fav active"></div>                        
+                                                                                                        
+                            </div>
+                            <input type="submit" class="to_cart" value="В корзину">
+                                                                                    
+                       </div>
+ 
+                    </div>
+                    
+
+                </div> <!-- product-->
+
+         
+
+               
+                <div class="product">
+                    <div class="img_wrap">
+                        <img src="img/prod1.png" alt="">
+                    </div>
+                    <div class="opisanie">
+                       
+                        <h3>Ежедневник недатированный "Beauty Lifestyle" (А5)</h3> 
+                        <h5>Лидер продаж</h5>                      
+                        <div class="rating_reviews">
+                            <div class="rating-result">
+                                <span class="active"></span>	
+                                <span class="active"></span>    
+                                <span class="active"></span>  
+                                <span></span>    
+                                <span></span>
+                            </div>   
+                            <div class="reviews">
+                                5 отзывов 
+                            </div>                     
+                        </div>  
+                        <h4>OfficeSpace</h4>
+                        <div class="text">
+                            Блокнот "Beauty Lifestyle" оптимального формата А5 с иллюстрацией снаружи и 40 листами кремовой бумагой внутри. Отлично подходит для повседневных записей.
+                        </div>                     
+                                              
+                    </div>
+                    
+                    <div class="func_block">
+                       <div>
+                            <div class="price_fav">
+                                <div>
+                                    <div class="price new_price">7.73 руб</div>
+                                    <div class="old_price">15.86 руб</div>
+                                </div>
+
+                            </div>
+                        
+                     
+                            <div class="fav_count">
+                                
+                                <div class="quantity-block">
+                                  <button class="quantity-arrow-minus"> - </button>
+                                  <input class="quantity-num" type="number" value="1" />
+                                  <button class="quantity-arrow-plus"> + </button>
+                                </div>
+                                
+                                 <div class="fav active"></div>                        
+                                                                                                        
+                            </div>
+                            <input type="submit" class="to_cart" value="В корзину">
+                                                                                    
+                       </div>
+ 
+                    </div>
+                    
+
+                </div> <!-- product-->
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div><!--  products-->
+                                                            
+                                                   
+                                                      
+                                                         
+                                                            
+                                                               
+                                                                  
+                                                                     
+                                                                        
+                                                                           
+                                                                                 
+            
+        </div> <!-- content-->
+        
+        
+        
+        
+    </div>  <!--content_wrap-->
+
+
+
+
+
+
+
+
+
+
+</div> <!-- wrapper -->
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
